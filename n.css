@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+
+}
+
+.main {
+    background-image: url(IMAGES/nbb.jpg);
+    background-position: center center;
+    height: 80vh;
+    position: relative;
+    background-size: max(1000px, 100vw);
+    background-repeat: no-repeat;
+
+
+
+
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.74;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 66px;
+
+    max-width: 60vw;
+}
+
+nav img {
+    width: 140px;
+    color: red;
+    position: relative;
+    z-index: 1;
+}
+
+nav button {
+    position: relative;
+    z-index: 1;
+    margin: 10px;
+    border: none;
+}
+
+.hero {
+    height: calc(100% - 66px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    position: relative;
+    gap: 15px;
+    padding: 0 30px;
+    text-align: center;
+    font-family: "Martel Sans", sans-serif;
+
+}
+
+.hero> :nth-child(1) {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+
+}
+
+.hero> :nth-child(2) {
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.line {
+    height: 7px;
+    background-color: rgb(62, 59, 59);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: transparent;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    font-weight: 200;
+    padding: 3px 24px;
+    font-size: 17px;
+    border-radius: 6px;
+}
+
+.main input {
+    padding: 3px 24px;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 6px;
+    background-color: rgb(23, 23, 23, 0.3);
+}
+
+
+
+.btn-red-sn {
+    background-color: red;
+    color: white;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    gap: 10px;
+}
+
+.secimg {
+    position: relative;
+
+}
+
+.secimg img {
+    width: 555px;
+    position: relative;
+    z-index: 1;
+
+
+
+}
+
+.secimg video {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+.first div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first div :nth-child(2) {
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.faq h2{
+    text-align: center;
+    font-size:48px;
+    padding: 34px;
+}
+
+.faq{
+    background-color: black;
+    color: white;
+     
+}
+.faqbox:hover {
+    background-color: rgb(48, 44, 44);
+}
+.faqbox{
+
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    background-color: rgb(101, 97, 97);
+    padding: 24px;
+    max-width: 50vw;
+    margin: 34px auto;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.faqbox svg{ 
+    filter: invert(1);           /* color of the plus sign changes to white b/c it inverted the color from black to white*/
+}
+
+footer{
+    color: #bab6ae;margin: auto;
+    max-width: 60vw;padding: 34PX;
+}
+
+
+
+
+footer a {
+ font-size:17x ;
+color: rgb(165, 166, 166);
+
+
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    color: rgb(177, 171, 171);
+}
+
+.footeritem{
+    display: flex;
+gap: 17PX;
+    flex-direction: column;
+}
+ footer .q{
+    padding: 34px 0;
+ }
+
+  .footer :hover{ color: rgb(122, 175, 221);
+    transition: all .5s ease-in; 
+ }
